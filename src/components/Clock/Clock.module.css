@@ -34,9 +34,8 @@
 input {
   border-radius: 5px;
 }
-
-input::-webkit-inner-spin-button {
-  display: none;
+.tz {
+  width: 170px;
 }
 
 .result {
