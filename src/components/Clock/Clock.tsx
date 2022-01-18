@@ -62,7 +62,7 @@ const Clock = () => {
       <div className={st.steps}>
         <form className={st.header} onSubmit={(e) => submitHandler(e)}>
           <div className="dateItem">
-            <label htmlFor="name">Город</label>
+            <label htmlFor="name">Название</label>
             <input type="text" name="name" id="name" value={selectedName} onChange={changeName} required autoComplete="off" />
           </div>
 

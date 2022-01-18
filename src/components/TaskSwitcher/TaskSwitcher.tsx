@@ -21,8 +21,8 @@ const TaskSwitcher = ({ task, onChangeHandler }: IProps) => {
       <input type="radio" id="choice1" name="task" value="1" defaultChecked={task === "1"} onChange={onChangeHandler} />
       <label htmlFor="choice1">Task1 (Steps)</label>
       <br />
-      {/* <input type="radio" id="choice2" name="task" value="2" defaultChecked={task === "2"} onChange={onChangeHandler} />
-      <label htmlFor="choice2">Task2 (Steps)</label> */}
+      <input type="radio" id="choice2" name="task" value="2" defaultChecked={task === "2"} onChange={onChangeHandler} />
+      <label htmlFor="choice2">Task2 (CRUD)</label>
       {/* <br />
       <input type="radio" id="choice3" name="task" value="3" defaultChecked={task === "3"} onChange={onChangeHandler} />
       <label htmlFor="choice3">Task3</label> */}
