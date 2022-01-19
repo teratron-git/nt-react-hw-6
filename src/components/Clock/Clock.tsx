@@ -1,6 +1,4 @@
-import moment from "moment-timezone"
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react"
-import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.min.css"
 import { v4 as uuidv4 } from "uuid"
 import st from "./Clock.module.css"
@@ -50,12 +48,6 @@ const Clock = () => {
   const deleteHandler = (id: string) => {
     setResultAmount(resultAmout.filter((item) => item.id !== id))
   }
-
-  // const editHandler = (id: string, date: Date, distance: number) => {
-  //   deleteHandler(id)
-  //   // setSelectedName(new Date(date))
-  //   setSelectedDiff(distance)
-  // }
 
   return (
     <div className={st.container}>

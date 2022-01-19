@@ -7,16 +7,6 @@
   align-items: center;
 }
 
-.steps {
-  display: flex;
-  flex-direction: column;
-  background-color: antiquewhite;
-  width: 600px;
-  min-height: 600px;
-  padding: 20px;
-  border-radius: 15px;
-}
-
 .header {
   display: flex;
   flex-direction: row;
@@ -27,24 +17,71 @@
   text-align: center;
 }
 
+.header i {
+  margin-left: 10px;
+  color: forestgreen;
+}
+
 .header label {
   display: block;
+}
+
+.form {
+  position: relative;
 }
 
 input {
   border-radius: 5px;
 }
+
+.buttonCrud {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
 .tz {
   width: 170px;
 }
 
 .result {
+  display: flex;
+  flex-wrap: wrap;
   background-color: aqua;
   width: 80%;
   align-self: center;
   margin-top: 50px;
   border-radius: 15px;
   text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.item {
+  position: relative;
+  background-color: cadetblue;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.itemСlose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "X";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: brown;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.itemСlose:hover {
+  cursor: pointer;
 }
 
 .result li span {
